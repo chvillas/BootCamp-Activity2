@@ -1,7 +1,7 @@
 
 
 <div style="text-align:center">
-  <ul>
+  <ul style="list-style-type: none">
     <li *ngFor="let d of dependencies; let i = index" appEnlarge>
       {{i + 1}}. {{d | deleteText}}
     </li>
